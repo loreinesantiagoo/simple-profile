@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+
+
+.my-body{background-attachment: scroll;
+    font-family: 'lato';
+}
+
+.my-title{ font-size: 4rem;
+    font-weight: 900;
+    color:white;
+}
+
+.my-subtitle{ font-size: 1.25rem;
+    color: orangered;
+    background-color: white;
+}
+
+.my-paragraph{ font-size: 3rem;
+    font-weight: 100;
+    color: white;
+}
+
+.my-strong{text-shadow: 2px 2px 0 orangered;
+}
+
+.my-container{ 
+    border: 10px solid burlywood;
+    background-color: white;
+    max-width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px rgb(221, 44, 44);
+}
+
+.my-highlight{ color: orangered;
+    text-decoration: overline;
+    font-size: 4rem;
+}
+
+.my-hr{ width: 20%;
+    border : 10px solid orangered;
+    margin-left: auto;
+}
+
+.my-face{ display: block;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    margin-top: -100px;
+}
+
+.my-parallax{
+	height: 80vh;
+	background-image: url(galaxy_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+.my-form{
+	font-family: "Lato";
+	max-width: 400px;
+	padding: 10px;
+	margin: auto;
+    border: 1px solid black;
+    
+}
+
+.my-container h1{
+    text-align: center;
+}
+
+.fa-ul{
+    padding: 10px;
+
+}
+
+.my-container ul{
+	max-width: 200px;
+    margin: auto;
+}
