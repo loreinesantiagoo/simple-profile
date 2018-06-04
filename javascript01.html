@@ -67,14 +67,17 @@
             document.writeln("number of items in Names: " + names.length + linebreak);
 
             var count = 0;
-            while(count < names.length) { //start of whlie loop
-                
-                //document.writeln(names[count] + linebreak);
-                console.log(names[count]); 
+            while (count < names.length) { //start of whlie loop
+
+                document.writeln(names[count] + linebreak);
+                //console.log(names[count]);
                 //increment the count by  1 and if true, increment again
-                count++;//count  + 1
-            }//end of while loop
+                count++; //count  + 1
+            } //end of while loop
         }
+    
+    writeHTML();
+    processNames();
     </script>
 
 </head>
@@ -85,8 +88,7 @@
     <input type="button" value="basicCalculation" onclick="basicCalculation()" />
     <input type="button" value="loop through Names" onclick="processNames()" />
 
-    <hr>
-    Enter a number:
+    <hr> Enter a number:
     <input type="number" id="num" />
     <input type="button" value="post number" onclick="processNumber()" />
 
